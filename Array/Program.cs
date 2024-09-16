@@ -10,6 +10,8 @@ namespace Array
 
             ArrayOutput.PrintList(userNumbers);
 
+            //ArrayOutput.CheckSymmetry(userNumbers);
+
             ArrayOutput.SortList(userNumbers);
         }
     }

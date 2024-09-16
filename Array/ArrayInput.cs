@@ -22,7 +22,7 @@ namespace Array
             List<int> listNumber = new List<int>();
             for (int i = 0; i < number; i++)
             {
-                Console.Write($"A[{i}] = ");
+                Console.Write($"\tA[{i}] = ");
                 listNumber.Add(int.Parse(Console.ReadLine()!));
             }
 
