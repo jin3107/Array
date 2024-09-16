@@ -18,5 +18,12 @@ namespace Array
             }
             Console.WriteLine();
         }
+
+        public static void SortList(List<int> array)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("\n\t---Danh sách (Mảng) sau khi sắp xếp---\n");
+            ArraySorter.SortArray(array);
+        }
     }
 }
