@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
 using System.Threading.Tasks;
 
 namespace Array
@@ -34,8 +35,8 @@ namespace Array
         public static void CheckSymmetry(List<int> array)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            if (IsSymmetrical(array)) Console.WriteLine("\n\t\tMảng đối xứng.");
-            else Console.WriteLine("\n\t\tMảng không đối xứng.");
+            if (IsSymmetrical(array)) Console.WriteLine("\n\t\t--> Mảng đối xứng.");
+            else Console.WriteLine("\n\t\t--> Mảng không đối xứng.");
         }
     }
 }
